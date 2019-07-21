@@ -1,0 +1,56 @@
+{% load bootstrap4 %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria</title>
+    {% block styles %} {% bootstrap_css %}
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="icon" href="{% static 'download.png' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}"> {% endblock %}
+</head>
+
+<body>
+    {% block content %} {% include 'navbar.html' %} {% endblock %} {% block scripts %}
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    {% bootstrap_javascript %}
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid');
+        var msnry = new Masonry(elem, {
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: 200
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var msnry = new Masonry('.grid', {
+            // options
+        });
+    </script>
+    <script type="text/javascript">
+        function copyToClipboard(element) {
+            var myVar = document.getElementById(element);
+            myVar.select();
+            document.execCommand("copy");
+        }
+    </script>
+    <script>
+        $(document).ready(() => {
+            $('.btn-sm-block').attr('disabled', true);
+            $('#message').keyup(function() {
+                if ($(this).val().length != 0)
+                    $('.btn-sm-block').attr('disabled', false);
+                else
+                    $('.btn-sm-block').attr('disabled', true);
+            })
+        });
+    </script>
+    {% endblock %}
+</body>
+
+</html>
