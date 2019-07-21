@@ -64,3 +64,6 @@ Install dependancies that will create an environment for the app to run.
 ### Run `manage.py` in the terminal
 
 - `python3.6 manage.py runserver`
+
+## Support
+* Email: maureezgaga@outlook.com
