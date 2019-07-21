@@ -8,3 +8,15 @@
 | Behavior| Input | Output |
 | :-------------: | :-------------: | :-------------: |
 | View Image Details | Click on Image  | Image Full size with details |
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- django-Bootstrap4
+- Python3.6
+- Heroku
+- Django
+- postgresql
+- whitenoise
+- pillow
