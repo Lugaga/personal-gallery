@@ -50,8 +50,8 @@ Install dependancies that will create an environment for the app to run.
 
 - SECRET_KEY='642726trtghgj'
 - DEBUG=True #set to false in production
-- DB_NAME='tribune'
-- DB_USER='user'
+- DB_NAME='db-name'
+- DB_USER='root'
 - DB_PASSWORD='password'
 - DB_HOST='127.0.0.1'
 - MODE='dev' #set to 'prod' in production
@@ -69,5 +69,5 @@ Install dependancies that will create an environment for the app to run.
 * Email: maureezgaga@outlook.com
 
 ### License and Copyright details
-* The MIT License (MIT)
+* The MIT License [LICENSE]
 * Copyright (c) 2019**Engineer Lugaga**
