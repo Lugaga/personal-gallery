@@ -20,3 +20,12 @@
 - postgresql
 - whitenoise
 - pillow
+
+## Setup/Installation Requirements
+
+### Prerequisites
+- python
+- django
+- postgresql
+- git
+- heroku
