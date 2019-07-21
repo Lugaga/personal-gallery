@@ -67,3 +67,7 @@ Install dependancies that will create an environment for the app to run.
 
 ## Support
 * Email: maureezgaga@outlook.com
+
+### License and Copyright details
+* The MIT License (MIT)
+* Copyright (c) 2019**Engineer Lugaga**
