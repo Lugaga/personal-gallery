@@ -29,3 +29,8 @@
 - postgresql
 - git
 - heroku
+
+### Clone the repo and checkout into the project folder.
+
+- `git clone https://github.com/lugaga/personal-gallery.git`
+- `cd gallery`
