@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+}
+
+.grid-item {
+    width: 33.3333%;
+}
+
+.grid-item--width2 {
+    width: 400px;
+}
+
+@media only screen and (max-width: 576px) {
+    .grid-item {
+        width: 100%;
+    }
+    .btn-sm-block {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .grid-item {
+        width: 50%;
+    }
+}
+
+body {
+    background-color: black;
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+#navz {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#modalz {
+    background-color: #ffae42;
+}
+
+img:hover {
+    cursor: pointer;
+}
