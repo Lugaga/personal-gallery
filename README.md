@@ -1,4 +1,4 @@
-# Personal Gallery
+# Personal Gallery (Lugagaleria)
 
 #### This is a personal gallery where I post photos of cities i fly to, users can view the photos, read details and copy a shareable link to share with friends and families.
 
@@ -70,4 +70,4 @@ Install dependancies that will create an environment for the app to run.
 
 ### License and Copyright details
 * The MIT License [MIT](LICENSE)
-* Copyright (c) 2019**Engineer Lugaga**
+* Copyright (c) 2019 **Engineer Lugaga**
