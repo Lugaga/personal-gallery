@@ -34,3 +34,33 @@
 
 - `git clone https://github.com/lugaga/personal-gallery.git`
 - `cd gallery`
+
+### Create and activate the virtual environment
+
+- `python3.6 -m venv virtual`
+- `source virtual/bin/activate`
+
+### Install the dependencies
+
+Install dependancies that will create an environment for the app to run.
+
+- `pip install -r requirements.txt`
+
+### Create an .env file and replace the following with your settings:
+
+- SECRET_KEY='642726trtghgj'
+- DEBUG=True #set to false in production
+- DB_NAME='tribune'
+- DB_USER='user'
+- DB_PASSWORD='password'
+- DB_HOST='127.0.0.1'
+- MODE='dev' #set to 'prod' in production
+- ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
+- DISABLE_COLLECTSTATIC=1
+
+### Make migrations to your database
+- `python3.6 manage.py migrate`
+
+### Run `manage.py` in the terminal
+
+- `python3.6 manage.py runserver`
